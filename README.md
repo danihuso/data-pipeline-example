@@ -7,6 +7,7 @@ The data can be downloaded from monthly/yearly basis or a full CSV dataset since
 http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-1.amazonaws.com/pp-complete.csv
 
 ## CSV DATA COLUMN HEADERS LABELS MAPPING
+Full definition on: https://www.gov.uk/guidance/about-the-price-paid-data#download-option
 
 | Field Label | Short Description                 | Type [Possible values] |
 | ----------- | --------------------------------- | ---------------------- |
