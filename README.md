@@ -47,59 +47,59 @@ The output would be in a new line delimited JSON (not coma), and the property ob
 
 ```json
 {
-    'postcode': 'ML1 11A',
-    'propertyType': 'D', 
-    'address1': '01', 
-    'address2': '', 
-    'street': 'First street', 
-    'locality': 'CITY CENTER', 
-    'town': 'MANCHESTER', 
-    'district': 'MANCHESTER', 
-    'county': 'MANCHESTER', 
-    'id': 'aaadddfff11111', 
-    'sales': 
+    "postcode": "ML1 11A",
+    "propertyType": "D", 
+    "address1": "01", 
+    "address2": "", 
+    "street": "First street", 
+    "locality": "CITY CENTER", 
+    "town": "MANCHESTER", 
+    "district": "MANCHESTER", 
+    "county": "MANCHESTER", 
+    "id": "aaadddfff11111", 
+    "sales": 
     [
         {
-            'saleId': 'XXXXYYY1', 
-            'saleDate': '1995-07-07', 
-            'newProperty': 'N', 
-            'contract': 'F', 
-            'price': '50000', 
-            'saleType': 'A', 
-            'saleStatus': 'A'
+            "saleId": "XXXXYYY1", 
+            "saleDate": "1995-07-07", 
+            "newProperty": "N", 
+            "contract": "F", 
+            "price": "50000", 
+            "saleType": "A", 
+            "saleStatus": "A"
         }, 
         {
-            'saleId': 'XXXXYYY2', 
-            'saleDate': '2002-06-03', 
-            'newProperty': 'N', 
-            'contract': 'F', 
-            'price': '70000', 
-            'saleType': 'A', 
-            'saleStatus': 'A'
+            "saleId": "XXXXYYY2", 
+            "saleDate": "2002-06-03", 
+            "newProperty": "N", 
+            "contract": "F", 
+            "price": "70000", 
+            "saleType": "A", 
+            "saleStatus": "A"
         }
     ]   
 }\n
 {
-    'postcode': 'SK1 11A', 
-    'propertyType': 'T', 
-    'address1': '999', 
-    'address2': '', 
-    'street': 'Coronation street', 
-    'locality': 'STOCKPORT', 
-    'town': 'STOCKPORT', 
-    'district': 'MANCHESTER', 
-    'county': 'MANCHESTER' 
-    'id': 'aaadddfff222222', 
-    'sales': 
+    "postcode": "SK1 11A", 
+    "propertyType": "T", 
+    "address1": "999", 
+    "address2": "", 
+    "street": "Coronation street", 
+    "locality": "STOCKPORT", 
+    "town": "STOCKPORT", 
+    "district": "MANCHESTER", 
+    "county": "MANCHESTER", 
+    "id": "aaadddfff222222", 
+    "sales": 
         [
             {
-                'saleId': 'XXXXYYY3', 
-                'saleDate': '1995-01-05', 
-                'newProperty': 'Y', 
-                'contract': 'F', 
-                'price': '90000', 
-                'saleType': 'A', 
-                'saleStatus': 'A'
+                "saleId": "XXXXYYY3", 
+                "saleDate": "1995-01-05", 
+                "newProperty": "Y", 
+                "contract": "F", 
+                "price": "90000", 
+                "saleType": "A", 
+                "saleStatus": "A"
             }
         ]
 }
