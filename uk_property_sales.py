@@ -38,7 +38,8 @@ propertyKeys = [
     "street",
     "locality",
     "town",
-    "district"
+    "district",
+    "county"
     ]
 
 """
