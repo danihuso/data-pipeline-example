@@ -9,24 +9,24 @@ http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-1.amazonaws.com/pp
 ## CSV DATA COLUMN HEADERS LABELS MAPPING
 Full definition on: https://www.gov.uk/guidance/about-the-price-paid-data#download-option
 
-| Field Label | Short Description                 | Type [Possible values] |
-| ----------- | --------------------------------- | ---------------------- |
-| saleId      | Transaction unique identifier     | String                 |             
-| price       | Price                             | String Numeric         |     
-| saleDate    | Date of Transfer                  | String Date            | 
-| postcode    | Postcode                          | String UK Postcode     |         
-| propertyTyp | Property Type                     | String [D,S,T,F,O]     |         
-| newProperty | Old/New                           | String [O,N]           |     
-| contract    | Duration                          | String [F,L]           |     
-| address1    | PAON                              | String                 |
-| address2    | SAON                              | String                 |              
-| street      | Street                            | String                 |              
-| locality    | Locality                          | String                 |              
-| town        | Town/City                         | String                 |              
-| district    | District                          | String                 |              
-| county      | County                            | String                 |              
-| saleType    | PPD Category Type                 | String [A,B]           |     
-| saleStatus  | Record Status - monthly file only | String [A,C,D]         |     
+| Field Label  | Short Description                 | Type [Possible values] |
+| ------------ | --------------------------------- | ---------------------- |
+| saleId       | Transaction unique identifier     | String                 |             
+| price        | Price                             | String Numeric         |     
+| saleDate     | Date of Transfer                  | String Date            | 
+| postcode     | Postcode                          | String UK Postcode     |         
+| propertyType | Property Type                     | String [D,S,T,F,O]     |         
+| newProperty  | Old/New                           | String [O,N]           |     
+| contract     | Duration                          | String [F,L]           |     
+| address1     | PAON                              | String                 |
+| address2     | SAON                              | String                 |              
+| street       | Street                            | String                 |              
+| locality     | Locality                          | String                 |              
+| town         | Town/City                         | String                 |              
+| district     | District                          | String                 |              
+| county       | County                            | String                 |              
+| saleType     | PPD Category Type                 | String [A,B]           |     
+| saleStatus   | Record Status - monthly file only | String [A,C,D]         |     
 
 ## DATA TRANSFORMATION INPUT VS OUTPUT
 The main data tranformation is explained on the code and in the pipeline chain, but basically the script looks for all the reapeted sales that belong
@@ -124,7 +124,7 @@ __Plattform:__
 + python3-pip
 + python3-setuptools
 
-__Python specific requiremnts:__
+__Python specific requirments:__
 
 + apache-beam
 ---
